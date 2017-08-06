@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<head>
+ <title>Basic Calculator</title>
+<link rel = "stylesheet" href = "stylesheet.css" type = "text/css">
+</head>
+
+<body>    
+    
+<table class="frame" cellpadding=7>
+<tr><td colspan=3><input class="keys" id="screen" type="text"></td></tr>
+    
+<tr>
+<td><input class="keys" type="button" value=1 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value=2 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value=3 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value='/' onclick="press(this.value);"></td>
+</tr>
+    
+<tr>
+<td><input class="keys" type="button" value=4 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value=5 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value=6 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value='*' onclick="press(this.value);"></td>
+</tr>
+    
+<tr>
+<td><input class="keys" type="button" value=7 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value=8 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value=9 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value='-' onclick="press(this.value);"></td>
+</tr>
+    
+<tr>
+<td><input class="keys" type="button" value=0 onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value='.' onclick="press(this.value);"></td>
+<td><input class="keys" type="button" value='C' onclick="press(this.value);"></td>
+<td><input class="keys"" type="button" value='+' onclick="press(this.value);"></td>
+</tr>
+    
+<tr><td colspan=3><input class="keys" type="button" value='=' onclick="equals(document.getElementById('screen').value);"></td></tr>
+</table>
+    
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
